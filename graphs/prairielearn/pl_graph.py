@@ -20,11 +20,17 @@ if __name__ == '__main__':
     DATA = pandas.read_csv(CSV)
     DATAFRAME = pandas.DataFrame(DATA)
     MEM = DATAFRAME['MEM%']
-    # Creaet line plo of cpu utilization
+    CPU = DATAFRAME['CPU%']
+    # Create side by side plot of memory and cpu utilization
+    _, AXES = pyplot.subplots(nrows=2, ncols=1, figsize=(6, 4))
+    AXES[0].plot(MEM, color='purple', label='Memory Utilization (%)')
+    AXES[0].legend(loc='upper right')
+    AXES[1].plot(CPU, label='CPU Utilization (%)')
+    AXES[1].legend(loc='upper right')
+    pyplot.xlabel('Time Elapsed (sec)')
+    """
     pyplot.plot(MEM)
 
-    pyplot.title('Pixel Fold Prairie Learn Test Memory Utilization')
-    pyplot.xlabel('Time Elapsed (sec)')
     pyplot.ylabel('Memory Utilization %')
-
+"""
     pyplot.show()
