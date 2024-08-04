@@ -23,8 +23,9 @@ if __name__ == "__main__":
     BENCHMARK = DATAFRAME['Benchmark']
     BASE_RATE = DATAFRAME['Base Rate']
 
-    _, AXES = pyplot.subplots()
+    _, AXES = pyplot.subplots(figsize=(6, 4))
     AXES.barh(BENCHMARK, BASE_RATE)
     AXES.set_xlabel('Base Rate')
     AXES.set_title('Pixel Fold SPEC Intrate Test')
+    pyplot.tight_layout()
     pyplot.show()
