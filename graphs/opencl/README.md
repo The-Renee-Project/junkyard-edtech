@@ -4,27 +4,22 @@
 There are 2 subdirectories:
 - `clpeak_res`
 - `mixbench_res`
-- `candidate_graphs`
 
-The first two correspond to the `clpeak` and `mixbench` benchmarks respectively. The last one contains the finalised graphs to be used in the paper.
+And a `graphs` directory containing the finalised graphs to be used in the paper.
 
 Here are the graphs:
 <table>
   <tr>
-    <td><img src="candidate_graphs/global_memory_bandwidth.png" width="400"></td>
-    <td><img src="candidate_graphs/transfer_latency.png" width="400"></td>
+    <td><img src="graphs/global_memory_bandwidth.png" width="400"></td>
+    <td><img src="graphs/transfer_latency.png" width="400"></td>
   </tr>
   <tr>
-    <td><img src="candidate_graphs/cand_single_precision_execution_time.png" width="400"></td>
-    <td><img src="candidate_graphs/cand_single_precision_performance.png" width="400"></td>
+    <td><img src="graphs/single_time.png" width="400"></td>
+    <td><img src="graphs/single_perf.png" width="400"></td>
   </tr>
   <tr>
-    <td><img src="candidate_graphs/cand_half_precision_execution_time.png" width="400"></td>
-    <td><img src="candidate_graphs/cand_half_precision_performance.png" width="400"></td>
-  </tr>
-  <tr>
-    <td><img src="candidate_graphs/cand_integer_operations_execution_time.png" width="400"></td>
-    <td><img src="candidate_graphs/cand_integer_operations_performance.png" width="400"></td>
+    <td><img src="graphs/integer_time.png" width="400"></td>
+    <td><img src="graphs/integer_perf.png" width="400"></td>
   </tr>
 </table>
 
