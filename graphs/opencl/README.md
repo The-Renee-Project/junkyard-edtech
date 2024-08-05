@@ -37,4 +37,5 @@ These were run on the Google Pixel Fold.
 
 #### mixbench
 > https://github.com/ekondis/mixbench
+
 > [Paper](https://doi.org/10.1016/j.jpdc.2017.04.002)
