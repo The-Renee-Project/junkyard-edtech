@@ -11,6 +11,7 @@
 ## Deploy to kubernetes as a pod
 
 `Kubectl create -f pod.yaml`
+
 *Port forwarding*
 
 `kubectl port-forward --address 0.0.0.0 pod/bert-pod 8501:8501`
